@@ -1,0 +1,7 @@
+.wrapper{
+    margin: -10px;
+}
+img{
+    width: 100%;
+    height: calc(100vh);
+}
