@@ -8,16 +8,16 @@ const styles = {
     margin: 0,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
-  //  backgroundattachment: fixed;
-  //  fontfamily: "Open Sans", sans-serif;
-  //  color: #333333;
+    //  backgroundattachment: fixed;
+    //  fontfamily: "Open Sans", sans-serif;
+    //  color: #333333;
 };
 
 function Background() {
     return (
         <>
-       {/* <div style={styles}></div> */}
-        <img src="background_img.jpg" alt="Background"/>   
+            {/* <div style={styles}></div> */}
+            <img src="background_img.jpg" alt="Background" />
         </>
     )
 }
