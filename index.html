@@ -10,17 +10,42 @@
 </head>
 
 <body>
-    <div style="position:relative;" class="wrapper">
+    <!-- partial:index.partial.html -->
+    <div class="box-form">
 
-        <img src="background-img.jpg">
+        <div class="left">
+            <div class="overlay">
+                <img src="Photo by Janko Ferlic on Pexels.jfif" width="550px">
+            </div>
+        </div>
 
-        <div class="login" style="position:absolute">
-            <h3 style="color:white">Title</h3>
-            <h4 style="color:white">Sub Title</h4>
-            <p> Lorel Ipsum Blah blah </p>
+
+        <div class="right">
+            <h5>Login</h5>
+            <p>Don't have an account? <a href="#">Creat Your Account</a> it takes less than a minute</p>
+            <div class="inputs">
+                <input type="text" placeholder="user name">
+                <br>
+                <input type="password" placeholder="password">
+            </div>
+
+            <br><br>
+
+            <div class="remember-me--forget-password">
+                <!-- Angular -->
+                <label>
+                    <input type="checkbox" name="item" checked />
+                    <span class="text-checkbox">Remember me</span>
+                </label>
+                <p>forget password?</p>
+            </div>
+
+            <br>
+            <button>Login</button>
         </div>
 
     </div>
+    <!-- partial -->
 </body>
 
 </html>
