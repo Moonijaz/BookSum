@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,44 @@
     <link rel="stylesheet" href="main.css">
     <title>Login</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <img src="4edb7ecd-2b7d-441d-9bcd-ee1f582e9ae3.jfif"  alt="img">
+    <!-- partial:index.partial.html -->
+    <div class="box-form">
+
+        <div class="left">
+            <div class="overlay">
+                <img src="Photo by Janko Ferlic on Pexels.jfif" width="550px">
+            </div>
+        </div>
+
+
+        <div class="right">
+            <h5>Login</h5>
+            <p>Don't have an account? <a href="#">Create Your Account</a> it takes less than a minute</p>
+            <div class="inputs">
+                <input type="text" placeholder="user name">
+                <br>
+                <input type="password" placeholder="password">
+            </div>
+
+            <br><br>
+
+            <div class="remember-me--forget-password">
+                <!-- Angular -->
+                <label>
+                    <input type="checkbox" name="item" checked />
+                    <span class="text-checkbox">Remember me</span>
+                </label>
+                <p>Forget password?</p>
+            </div>
+
+            <br>
+            <button>Login</button>
+        </div>
+
     </div>
-    
+    <!-- partial -->
 </body>
+
 </html>
