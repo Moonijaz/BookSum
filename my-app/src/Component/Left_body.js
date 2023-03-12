@@ -1,6 +1,6 @@
-import './App.css';
 
-function App() {
+
+function Image() {
   return (
     <div className="left">
             <div className="overlay">
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default Image;
