@@ -1,5 +1,5 @@
-.background {
-    background-image: url(${backgroundImage});
+img {
+   /* background-image: url("./public/background_img.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
