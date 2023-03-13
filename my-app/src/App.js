@@ -1,10 +1,10 @@
-import Background_img from './Component/Background_img';
+import Background from './Component/Background';
 import Image from './Component/Left_body';
 
 function App() {
   return (
     <>
-  <Background_img/>
+  <Background/>
   <Image/>
     </>
   )
