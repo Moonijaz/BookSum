@@ -1,14 +1,11 @@
 import "./Backgroung_img.css";
-import backgroundImage from './public/background-img.jpg';
+//import Background_img from './public/background_img.jpg';
 
 
 function Background_img() {
     return (
         <>
-        
-        <div className="background">
-            
-        </div>
+        <img src="background_img.jpg" alt="Background image"/>   
         </>
     )
 }
