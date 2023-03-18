@@ -8,8 +8,8 @@ const styles = {
     margin: 0,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
-  //  backgroundattachment: fixed;
-  //  fontfamily: "Open Sans", sans-serif;
+    backgroundattachment: 'fixed',
+   // fontfamily: 'Open Sans', 'sans-serif';
   //  color: #333333;
 };
 
