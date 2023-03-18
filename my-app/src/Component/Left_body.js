@@ -1,4 +1,14 @@
 
+const styles = {
+ // backgroundImage: `url('background_img.jpg')`,
+  height: '200px',
+  margin: 0,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+//  backgroundattachment: fixed;
+//  fontfamily: "Open Sans", sans-serif;
+//  color: #333333;
+};
 
 function Image() {
   return (
